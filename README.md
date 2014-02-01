@@ -1,14 +1,18 @@
 # Vagrant & Saltstack
 
-Vagrant & Various SaltStack receipts
+Vagrant
 
 > Create and configure lightweight, reproducible, and portable development environments.
 > Run a single command — "vagrant up" — and sit back as Vagrant puts together your complete development environment. Say goodbye to the "works on my machine" excuse as Vagrant creates identical development environments for everyone on your team.
 
+Resources:
+- http://www.vagrantup.com
+
+SaltStack
+
 > Fast, scalable and flexible software for data center automation, from infrastructure and any cloud, to the entire application stack
 
 Resources:
-- http://www.vagrantup.com
 - http://www.saltstack.com
 
 
