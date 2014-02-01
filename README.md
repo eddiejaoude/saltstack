@@ -1,0 +1,4 @@
+saltstack
+=========
+
+Various SaltStack receipts
