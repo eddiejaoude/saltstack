@@ -64,6 +64,10 @@ unix  2      [ ACC ]     SEQPACKET  LISTENING     7012     /run/udev/control
 
 ```
 
+## What Vagrant VMs are currently running
+```
+ps aux | grep 'vagrant' | grep -v 'grep' | grep -v 'vagrant ssh' | grep 'VMware Fusion' | awk '{split($23,array,/.vagrant/); print array[1]}'
+```
 
 
 
