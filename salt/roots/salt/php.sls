@@ -1,20 +1,3 @@
-apache2:
-    pkg:
-        - installed
-    service:
-        - running
-        - enable: True
-        - reload: True
-        - watch:
-            - pkg: apache2
-            - file: /etc/apache2/sites-available/elastic-dash.conf
-
-apache2-modrewrite:
-    cmd.run:
-        - name: |
-            a2enmod rewrite
-            service apache2 restart
-
 php5_ppa:
   pkgrepo.managed:
     - ppa: ondrej/php5
@@ -35,4 +18,3 @@ php5-pkgs:
               - php5-dev
               - php-pear
               - php5-gd
-
